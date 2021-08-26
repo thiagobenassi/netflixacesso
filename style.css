@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url(./imagens/netflix.jpg);
+    background-size: cover;
+    overflow-y: hidden;  
+}
+header img{
+    width: 250px;
+    height: 180px;
+    margin: 18px 15px 0 37px;
+}
+section{color: white;
+    border-style: solid;
+    border-color:black; 
+    border-radius: 5px;
+    background-color: black;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: -120px;
+    opacity: 0.8;
+}
+section h1{
+    margin: 50px 0 20px 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .login input{
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 80%;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(51, 48, 48);  
+    letter-spacing: 1px;  
+}
+button{
+    margin-left: 40px;
+    margin-top: 25px;
+    height: 50px;
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+button:hover{
+    background: rgba(167, 13, 13, 0.726);
+    cursor: pointer;
+}
+.remember{
+    display: flex;
+}
+.remember p{
+    color: rgb(184, 162, 162);
+    font-size: 13px;
+    margin-top: 11px;
+}
+section .remember a{
+    color:rgb(184, 162, 162);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 11px;
+} 
+input{
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.facebook{
+    display: flex;
+    margin-top: 120px;
+}
+.facebook a{
+    color: rgb(184, 162, 162);
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.facebook img{
+    height: 25px;
+    width: 45px;
+    margin-left: 30px;   
+}
+.new{
+    display: flex;
+    margin-top: 0px;
+}
+.new p{
+    margin-left: 40px;
+    color: rgb(184, 162, 162);
+    font-size: 15px;
+    margin-top: 9px;
+    margin-right: 58px;
+}
+.new a{
+    text-decoration: none;
+    color: white;
+    margin-left: -55px;
+    font-size: 15px;
+    margin-top: 9px;
+}
